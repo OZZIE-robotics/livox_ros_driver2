@@ -172,8 +172,8 @@ install(TARGETS ${PROJECT_NAME}_node
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
-install(DIRECTORY launch_ROS1/
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch_ROS1
+install(DIRECTORY launch/
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/launch
 )
 
 #---------------------------------------------------------------------------------------
