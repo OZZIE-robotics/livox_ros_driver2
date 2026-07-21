@@ -1,3 +1,6 @@
+set(ROS_EDITION "ROS2" CACHE STRING "ROS edition" FORCE)
+set(DISTRO_ROS "humble" CACHE STRING "ROS humble" FORCE) 
+
 # judge which cmake codes to use 
 if(ROS_EDITION STREQUAL "ROS1")
 
